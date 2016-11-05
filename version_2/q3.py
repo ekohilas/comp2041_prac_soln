@@ -5,7 +5,7 @@ d = {}
 # to remove the first argument
 args = sys.argv[1:]
 for arg in args:
-    if arg not in args:
+    if arg not in d:
         d[arg] = 0
     d[arg] += 1
 
