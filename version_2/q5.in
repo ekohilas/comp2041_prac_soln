@@ -1,0 +1,12 @@
+Hello, <!echo how> are you
+I am in the </etc/timezone>timezone.
+
+Lines may have no embedded commands
+or several: <!date><!date><!date>
+1 empty file's contents: </dev/null>
+3 empty files:
+</dev/null> </dev/null> </dev/null>
+/bin/true prints nothing:
+<!/bin/true>
+Some commands print <!echo -n no> newlines.
+>>> The end. <<<<
