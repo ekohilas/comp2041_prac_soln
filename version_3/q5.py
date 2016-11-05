@@ -1,3 +1,5 @@
+# I don't like this solution, the need for EOF make it un-pythonic
+
 d = {}
 name = input("Enter student name: ")
 fine = int(input("Enter library fine: "))
