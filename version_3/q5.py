@@ -24,3 +24,13 @@ print("Expel {} whose library fines total ${}".format(
     max(d, key = lambda x: d[x]),
     #get the max value
     max(d.values())))
+
+
+'''
+# Another solution of using Counter
+from collections import Counter
+
+c = Counter(d)
+result = c.most_common(1)[0]
+print("Expel {} whose library fines total ${}".format(result[0], result[1]))
+'''
